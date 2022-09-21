@@ -1,0 +1,38 @@
+body {
+    background-color: black !important;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    color: bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a {
+    font-size: 20px;
+    padding: 10px;
+}
+.test{
+    color: wheat;
+}
+.menu {
+    margin: auto;
+    width: 350px;
+    margin-bottom: 10px;
+    border:4px solid;
+    border-radius: 8px;
+}
+.menu.FTX {
+    border-color: #02a6c2;
+}
+.menu.Binance {
+    border-color: #F0B90B;
+}
+
+#FTX {
+    color:#02a6c2;
+}
+
+#Binance {
+    color:#F0B90B;
+}
