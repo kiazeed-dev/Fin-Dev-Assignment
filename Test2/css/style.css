@@ -1,0 +1,29 @@
+body {
+    background-color: black !important;
+    align-items: center;
+    text-align: center;
+    font-family: Monospace;
+}
+h1 {
+    color: bisque;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: bisque;
+    padding-bottom: 10px;
+}
+
+h2#note{
+    color: rgb(239, 242, 48);
+}
+
+button {
+    margin: auto;
+    color: #000;
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Monospace;
+}
