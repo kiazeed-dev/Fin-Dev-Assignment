@@ -1,7 +1,7 @@
 # Fin-Dev-Assignment
 Exam Testing for Frontend Developer
 
-Example : website applications
+# Example : website applications
 
 Test No.1 : https://market-price-diff.firebaseapp.com/
 
