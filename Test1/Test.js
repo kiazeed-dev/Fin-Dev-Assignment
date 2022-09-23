@@ -1,4 +1,5 @@
-const ftx = "https://ftx.com/api/markets/BTC/USDT";
+// https://ftx.com/api/markets/BTC/USDT <-- original API
+const ftx = "https://cors-anywhere.herokuapp.com/https://ftx.com/api/markets/BTC/USDT";
 const binance = "https://api1.binance.com/api/v3/avgPrice?symbol=BTCUSDT";
 show()
 function getapi(url){
