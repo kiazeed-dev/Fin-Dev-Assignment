@@ -1,5 +1,5 @@
 # Fin-Dev-Assignment
-Exam Testing for Frontend Developer
+Exam Testing
 
 # Example : website applications
 
