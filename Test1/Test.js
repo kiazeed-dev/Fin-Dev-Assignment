@@ -1,7 +1,8 @@
 // https://ftx.com/api/markets/BTC/USDT <-- original API
-// Use https://cors-anywhere.herokuapp.com to Fix CORS block
-const ftx ="https://cors-anywhere.herokuapp.com/https://ftx.com/api/markets/BTC/USDT";
+// Use https://cors-drill.herokuapp.com to Fix CORS block. Check this api on Folder "CORSdrill"
+const ftx ="https://cors-drill.herokuapp.com/";
 const binance = "https://api1.binance.com/api/v3/avgPrice?symbol=BTCUSDT";
+var headers = {}
 show();
 
 async function getapi(url) {
@@ -47,3 +48,20 @@ function update() {
   document.getElementById("perdiff").innerHTML = "";
   show();
 }
+
+(function() {
+  var cors_api_host = 'cors-anywhere.herokuapp.com';
+  var cors_api_url = 'https://' + cors_api_host + '/';
+  var slice = [].slice;
+  var origin = window.location.protocol + '//' + window.location.host;
+  var open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function() {
+      var args = slice.call(arguments);
+      var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+      if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
+          targetOrigin[1] !== cors_api_host) {
+          args[1] = cors_api_url + args[1];
+      }
+      return open.apply(this, args);
+  };
+})();
