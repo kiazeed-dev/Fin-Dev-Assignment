@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test No.3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Test No.3</h1>
+    <div class="main results">
+      <h1 id="note" style="font-size: 50px">&#128528;</h1>
+      <h2 class="input" style="display: none">
+        USDT Input : <a id="usdin" style="color: #edf506"></a>
+      </h2>
+      <h2 class="input" style="display: none">
+        BTC volume : <a id="btc" style="color: #f2a900"></a>
+      </h2>
+      <h2 class="input" style="display: none">
+        USDT Balance : <a id="balance" style="color: aqua"></a>
+      </h2>
+    </div>
+    <div id="input-text">
+      <h2 id="length">Enter USDT</h2>
+      <input type="text" id="usdt" value="1000" /> <a>$</a>
+    </div>
+    <p></p>
+    <button onclick="show()">Calculate</button>
+    <h2 id="note">Note : Calculate by use last Order book 100 order</h2>
+  </body>
+  <script src="test.js"></script>
+</html>

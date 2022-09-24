@@ -1,0 +1,52 @@
+body {
+    background-color: black !important;
+    align-items: center;
+    text-align: center;
+    font-family: Monospace;
+}
+h1 {
+    color: bisque;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: bisque;
+    padding-bottom: 10px;
+}
+
+div#input-text a{
+    color: rgb(239, 242, 48);
+    font-size: 25px;
+}
+
+button {
+    margin: auto;
+    color: #000;
+    background-color: rgb(35, 240, 138);
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Monospace;
+    font-weight: bold;
+}
+
+div input#usdt {
+    padding: 10px 10px;
+    line-height: 5px;
+}
+
+.main {
+    margin: auto;
+    width: 350px;
+    margin-bottom: 10px;
+    border:4px solid;
+    border-radius: 8px;
+}
+
+.main.results{
+    border-color: #e98d3c;
+    padding: 5px 10px;
+}
+.main.results h2{
+    text-align:left;
+}
